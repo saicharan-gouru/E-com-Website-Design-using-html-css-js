@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Login | Spazeir's Grand Mart</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="lo">
+    <script src="script.js"></script>
+    <button style="background-color: black;border-radius: 10px; padding: 10px;"><a href="index.html"> Back to home page </a></button>
+    <section class="l">
+        <h1 style="text-align: center; font-size: 50px; color: blueviolet; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Spazeir's Grand Mart Login</h1>
+        <div class="login">    
+            <form id="login" method="get" action="login.php" name="myform1">    
+                <label>
+                    <b>User Name</b>    
+                </label>    
+                <input type="text" name="name" id="Uname" placeholder="Username">    
+                <br><br>    
+                <label>
+                    <b>Password</b>    
+                </label>    
+                <input type="Password" name="ass" id="Pass" placeholder="Password">        
+                <br>
+                <input type="checkbox" id="check">    
+                <span>Remember me</span>    
+            </form>   
+            <button onclick="validatelogin()" class="p">Login</button>      
+        </div> 
+    </section>  
+    <footer style="text-align: center; padding-top: 50px;">
+        <h5 style="text-decoration-line: underline;"><b>Copyright To - Saicharan Gouru</b><h5>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact us | Spazeir's Grand Mart</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="c">
+    <script src="script.js"></script>
+    <button style="background-color: black;border-radius: 10px; padding: 10px; float: left;"><a href="index.html"> Back to home page </a></button>
+    <section>
+    <h1 style="padding: 40px; padding-bottom: 0px; ">Query Form:</h1>
+    <div class="container" >
+    <form action="/action_page.php" name="myform" method="post" >
+        <label for="fname">First Name</label>
+        <input type="text"  id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Issue With</label>
+        <select id="country" name="country">
+        <option value="Website">Website</option>
+        <option value="Quality">Quality of products</option>
+        <option value="Refund">Refund or Cancellation</option>
+        <option value="Other">Other</option>
+        </select>
+        <label for="subject">Query</label>
+        <textarea id="subject" name="subject" placeholder="Write Your Query Here.." style="height:200px"></textarea>
+        
+      </form>
+      <button onclick="validateForm()">Submit</button>
+    </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="inner">
+        <h1 style="color: black;">:Contact:</h1>
+        <p>spazeirsgrandmart@gmail.com</p><br>
+        <p>+91 9999999999</p><br>
+        <p>@hnr_Mart</p><br>
+        <p>@saicharan_gouru_mart</p>
+        </div>
+    </section>
+    <footer style="text-align: center; padding-top: 50px;">
+        <h5 style="text-decoration-line: underline;"><b>Copyright To - Saicharan Gouru</b><h5>
+    </footer>
+  </body>
+</html>
