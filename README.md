@@ -1,5 +1,7 @@
 # E-com-Website-Design-using-html-css-js
 
+## Overview
+
 >This Project is done at internship studio and by thier guidelines.
 
 >The project is to design a E-commerce website.
@@ -23,3 +25,12 @@
 	>Back to home button in every section.
 	
 	>Alert message when clicked on help button.
+	
+## Technologies
+1. HTML5
+2. CSS3
+3. JS
+
+##Screenshots
+
+![screenshot1](screenshots/1.png)
